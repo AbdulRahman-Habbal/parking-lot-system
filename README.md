@@ -37,7 +37,14 @@ The project utilizes a VehicleType Enum (CAR, TRUCK, MOTORCYCLE) rather than sta
 
 ## How to Run
 
-1. Compile the source code:
-   ```bash
-   javac src/*.java
+```bash
+# 1. Compile the source code
+javac src/*.java
+
+# 2. Run the application
+java -cp src ParkingLotApplication
+
+# Note: The application runs a pre-configured test scenario to demonstrate 
+# the system is functioning correctly (simulating entry, time passing, and exit).
+# This test driver program is AI-generated to verify the core system logic.
    
